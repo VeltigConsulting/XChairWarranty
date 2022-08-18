@@ -660,13 +660,10 @@ Serial Number:<input  id="00N7i00000DpdEN" maxlength="25" name="00N7i00000DpdEN"
 
 <label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
 
-<label for="recordType">Case Record Type</label><select  id="recordType" name="recordType"><option value="">--None--</option><option value="0125A000001Nap6">Customer Service</option>
-<option value="0127i000001kKZp">Healthyback</option>
-<option value="0125A000001Nap7">Internal Case</option>
-<option value="0127i000001kKZk">Mavix</option>
-<option value="0127i000001kKZa">XCHAIR B2B</option>
-<option value="0127i000001kKZf">XCHAIR DTC</option>
-</select><br>
+<input name="type" type="hidden" value="Warranty">  
+  <input id="status" name="status" type="hidden" value="New">
+  <input id="recordType" name="recordType" type="hidden" value="0127i000001kKZfAAM">
+   <input id="Origin" name="Origin" type="hidden" value="Email - XChair DTC">
 
 <input type="submit" name="submit">
 
